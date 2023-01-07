@@ -43,10 +43,7 @@ html {
     border-radius: 5px;
     border: 1px solid blue;
     background-color: blue;
-}
-.header__banner {
-    height: 800;
-    width: 100%;
+
 }
 .header__upper-title {
     box-sizing: border-box;
@@ -60,22 +57,64 @@ html {
     text-align: center;
     vertical-align: baseline;
 }
-.About Cloudy Group {
+.header__banner {
 box-sizing: border-box;
 display: block;
-font-size: 16px;
-line-height: 16px;
-overflow-wrap: break-word;
-position: absolute;
-right: 0px;
-top: 0px;
 vertical-align: baseline;
+height: 500;
+width: 100%;
 z-index: 0;
 }
 .about cloudy group-container {
-
+box-sizing: border-box;
+color: rgb(18, 40, 60);
+display: flex;
+font-size: 16px;
+line-height: 16px;
+overflow-wrap: break-word;
+position: static;
+z-index: auto;
 }
 
+.section__header-title {
+box-sizing: border-box;
+color: rgb(18, 40, 60);
+display: block;
+flex-basis: 100%;
+font-size: 36px;
+font-weight: 400;
+position: relative;
+text-align: center;
+z-index: 1;
+}
 .about-cloudy-group-text {
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+font-family: sans-serif;
+line-height: 16px;
+padding: 30px;
+}
+.Benefits of working here {
+position: absolute;
+right: 0;
+left: 0;
+overflow: hidden;
+z-index: 0;
+
+}
+.Benefits__header {
+ font-size: 24px;
+ text-align: center;
+}
+.health and wellness__containter {
+position: relative;
+font-size: 16px;
+line-height: 1.4;
+font-family: sans-serif;
+font-weight: 400;
+word-wrap: break-word;
+z-index: 1;
+justify-content: flex-around;
 
 }
