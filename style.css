@@ -60,3 +60,22 @@ html {
     text-align: center;
     vertical-align: baseline;
 }
+.About Cloudy Group {
+box-sizing: border-box;
+display: block;
+font-size: 16px;
+line-height: 16px;
+overflow-wrap: break-word;
+position: absolute;
+right: 0px;
+top: 0px;
+vertical-align: baseline;
+z-index: 0;
+}
+.about cloudy group-container {
+
+}
+
+.about-cloudy-group-text {
+
+}
