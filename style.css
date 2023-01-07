@@ -1,4 +1,62 @@
-.header {
+.__logo {
     color: #567491;
     font-size: 26px;
+    padding-top: 60px;
+
+}
+html {
+    box-sizing: border-box;
+}
+.Header__menu {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  list-style: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: black;
+    
+}
+.Header__menu a {
+    text-decoration: none;
+    color: rgb(59, 59, 238); 
+    cursor: pointer;
+}
+.header__menu-item {
+    margin-right: 40px;
+}
+.header__menu-item button {
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23.94px;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+.header__banner {
+    height: 800;
+    width: 100%;
+}
+.header__upper-title {
+    box-sizing: border-box;
+    color: rgb(255 255 255);
+    font-family: montserrat; sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 57.6px;
+    overflow-wrap: break-word;
+    text-align: center;
+    vertical-align: baseline;
 }
