@@ -74,6 +74,8 @@ line-height: 16px;
 overflow-wrap: break-word;
 position: static;
 z-index: auto;
+background-size: cover;
+height: 640px;
 }
 
 .section__header-title {
@@ -81,13 +83,14 @@ box-sizing: border-box;
 color: rgb(18, 40, 60);
 display: block;
 flex-basis: 100%;
-font-size: 36px;
-font-weight: 400;
+font-size: 42px;
+font-weight: 800;
 position: relative;
 text-align: center;
 z-index: 1;
 }
 .about-cloudy-group-text {
+display: relative;
 text-align: center;
 font-size: 16px;
 font-weight: 400;
@@ -96,11 +99,10 @@ line-height: 16px;
 padding: 30px;
 }
 .Benefits of working here {
-position: absolute;
+position: relative;
 right: 0;
 left: 0;
-overflow: hidden;
-z-index: 0;
+
 
 }
 .Benefits__header {
@@ -115,6 +117,139 @@ font-family: sans-serif;
 font-weight: 400;
 word-wrap: break-word;
 z-index: 1;
-justify-content: flex-around;
+background-size: cover;
+height: 640px;
 
+}
+.Benefits of working here {
+    background-color: rgb(209, 207, 207);
+    position: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.Benefits_header-title {
+    font-size: 42px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding-bottom: 10px;
+    
+}
+.lighter-icon-image {
+    height: 130px;
+    max-width: 70px;
+    margin: auto;
+    text-align: left;
+
+}
+
+.health and wellness__title {
+    font-size: 24px;
+    font-weight: 400;
+}
+.health benefits {
+    text-align: left;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+.lamp-icon-image {
+  height: 130px;
+  max-width: 70px;
+  margin: auto;
+  text-align: left;
+}
+.clock-icon-image {
+height: 130px;
+  max-width: 70px;
+  margin: auto;
+  text-align: left;
+}
+
+.battery-icon-image { 
+  height: 130px;
+  max-width: 70px;
+  margin: auto;
+  text-align: left;
+}
+.Our workstyle {
+    display: block;
+    box-sizing: border-box;
+    display: flex;
+    vertical-align: baseline;
+}
+
+
+.Our workstyle_title {
+    font-size: 42px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.laptop-on-table-image {
+    height: 259x;
+    width: 370px;
+    border-radius: 10px;
+    
+}
+.meeting-in-office-image {
+    height: 259x;
+    width: 370px;
+    border-radius: 10px;
+    
+
+}
+.image-of-girl-img {
+    height: 259x;
+    width: 370px;
+    border-radius: 10px;
+    
+}
+.man-with-laptop {
+    height: 259x;
+    width: 370px;
+    border-radius: 10px;
+    
+}
+.man-with-photos {
+    height: 259x;
+    width: 370px;
+    border-radius: 10px;
+    
+}
+.teamwork-in-office {
+    height: 259x;
+    width: 370px;
+    border-radius: 10px;
+    
+}
+
+.cloudy group in action__title {
+    color:black;
+    font-size: 42px;
+    font-weight: 800;
+    font-family: Montserrat; sans-serif;
+    text-align: center;
+}
+
+.Cloudy group in action {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+.man-writing-on-board-image {
+    height: 840px;
+    width: 950px;
+    text-align: center;
+}
+.Our people {
+    display: block;
+    background-color: rgb(247, 241, 241);
+}
+h2 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
 }
