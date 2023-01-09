@@ -48,9 +48,9 @@ html {
 .header__upper-title {
     box-sizing: border-box;
     color: rgb(255 255 255);
-    font-family: montserrat; sans-serif;
+    font-family: sans-serif;
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 800;
     letter-spacing: normal;
     line-height: 57.6px;
     overflow-wrap: break-word;
@@ -83,7 +83,7 @@ box-sizing: border-box;
 color: rgb(18, 40, 60);
 display: block;
 flex-basis: 100%;
-font-size: 42px;
+font-size: 48px;
 font-weight: 800;
 position: relative;
 text-align: center;
@@ -252,4 +252,16 @@ h2 {
     font-family: sans-serif;
     font-weight: 800;
     text-align: center;
+}
+.Employees-of-group {
+    font-size: 24px;
+    text-align: center;
+}
+
+.slide_image {
+    height: 259x;
+    width: 370px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
 }
