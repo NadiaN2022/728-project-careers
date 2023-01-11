@@ -1,108 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
 .__logo {
     color: #567491;
-    font-size: 32px;
-    padding-top: 60px;
+    font-size: 26px;
+    padding-top: 40px;
 
 }
-html {
-    box-sizing: border-box;
+body {
+    background-color: white;
+}
+
+.header__logo-cloudy {
+    padding-left: 40px;
+    color: rgb(98, 98, 236);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.header__logo-group {
+    cursor: pointer;
+    font-weight: 700;
 }
 .header__menu {
-    display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  width: 100%;
   margin: 0 auto;
   list-style: none;
   font-size: 16px;
+  font-weight: 400;
   font-family: sans-serif;
-  color: black;
+  color: rgb(48, 45, 45);
+  padding-top: 0;
     
 }
-.Header__menu a {
+.header__menu a {
     text-decoration: none;
-    color: rgb(59, 59, 238); 
+    color: rgb(58, 55, 55);
     cursor: pointer;
-}
+ }
+
+ .header__menu a:hover {
+    color:blue;
+ }
 .header__menu-item {
     margin-right: 40px;
 }
-.header__menu-item button {
+.header__menu-item-button {
     box-sizing: border-box;
-    color: blue;
+    color: white;
     cursor: pointer;
     display: block;
     font-family: montserrat, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    line-height: 23.94px;
     max-width: 100%;
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid blue;
-    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(111, 111, 241);
+    background-color: rgb(79, 79, 233);
 
 }
+.header__banner {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    }
 .header__upper-title {
-    box-sizing: border-box;
-    color: rgb(255 255 255);
+    position: absolute;
+    color: white;
     font-family: sans-serif;
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: normal;
     line-height: 57.6px;
     overflow-wrap: break-word;
     text-align: center;
-    vertical-align: baseline;
+    top: 30%;
+    right: 50%;
+    transform: translate(50%,-50%);
 }
-.header__banner {
-box-sizing: border-box;
-display: block;
-height: 500;
-width: 100%;
-z-index: 0;
+
+.header__title {
+    position: absolute;
+    color: blue;
+    font-size: 88px;
+    font-weight: 800;
+    text-align: center;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
 }
+
+.header__subtitle {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    top: 60%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+.header__apply-button-button {
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    max-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid rgb(111, 111, 241);
+    background-color: rgb(79, 79, 233);
+    top: 80%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+.about-cloudy-group {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin-top: 30px;
+}
+
 .about-cloudy-group-container {
-box-sizing: border-box;
+position: relative;
 color: rgb(18, 40, 60);
-display: flex;
 font-size: 16px;
 line-height: 16px;
 overflow-wrap: break-word;
-position: static;
-z-index: auto;
-background-size: cover;
-height: 640px;
 }
 
-.section__header-title {
-box-sizing: border-box;
-color: rgb(18, 40, 60);
-display: block;
-flex-basis: 100%;
-font-size: 48px;
-font-weight: 800;
-position: relative;
-text-align: center;
-z-index: 1;
-}
-.about-cloudy-group-text {
-display: relative;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-font-family: sans-serif;
-line-height: 16px;
-padding: 30px;
-}
-.benefits-of-working-here {
-position: relative;
-
-
-
-}
 .benefits__header {
  font-size: 24px;
  text-align: center;
@@ -120,8 +160,8 @@ height: 640px;
 
 }
 .benefits-of-working-here {
-    background-color: rgb(209, 207, 207);
-    position: cover;
+    background-color: rgb(247, 239, 239);
+    position: absolute;
 }
 .benefits-header-title {
     font-size: 42px;
@@ -130,7 +170,7 @@ height: 640px;
     font-family: sans-serif;
     font-weight: 800;
     padding-bottom: 10px;
-    
+
 }
 .lighter-icon-image {
     height: 130px;
@@ -169,11 +209,7 @@ height: 130px;
   margin: auto;
   text-align: left;
 }
-.our-workstyle {
-    display: block;
-    box-sizing: border-box;
-    display: flex;
-}
+
 
 
 .our-workstyle_title {
