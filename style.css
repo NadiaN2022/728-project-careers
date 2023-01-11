@@ -129,18 +129,27 @@ body {
     transform: translate(50%,-50%);
 }
 .about-cloudy-group {
-    position: relative;
-    height: auto;
+    text-align: center;
+    height: 300px;
     width: auto;
-    margin-top: 30px;
+    padding: 20px;
+    margin-top: 40px 20px 40px 20px;
 }
 
 .about-cloudy-group-container {
 position: relative;
 color: rgb(18, 40, 60);
-font-size: 16px;
-line-height: 16px;
-overflow-wrap: break-word;
+font-size: 16px; 
+}
+
+.section__header-title {
+padding-top: 30px;
+
+}
+.about-cloudy-group-text {
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .benefits__header {
