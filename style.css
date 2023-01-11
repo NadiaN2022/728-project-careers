@@ -1,13 +1,13 @@
 .__logo {
     color: #567491;
-    font-size: 26px;
+    font-size: 32px;
     padding-top: 60px;
 
 }
 html {
     box-sizing: border-box;
 }
-.Header__menu {
+.header__menu {
     display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ html {
 }
 .header__menu-item button {
     box-sizing: border-box;
-    color: white;
+    color: blue;
     cursor: pointer;
     display: block;
     font-family: montserrat, sans-serif;
@@ -60,12 +60,11 @@ html {
 .header__banner {
 box-sizing: border-box;
 display: block;
-vertical-align: baseline;
 height: 500;
 width: 100%;
 z-index: 0;
 }
-.about cloudy group-container {
+.about-cloudy-group-container {
 box-sizing: border-box;
 color: rgb(18, 40, 60);
 display: flex;
@@ -98,18 +97,17 @@ font-family: sans-serif;
 line-height: 16px;
 padding: 30px;
 }
-.Benefits of working here {
+.benefits-of-working-here {
 position: relative;
-right: 0;
-left: 0;
+
 
 
 }
-.Benefits__header {
+.benefits__header {
  font-size: 24px;
  text-align: center;
 }
-.health and wellness__containter {
+.health-and-wellness__containter {
 position: relative;
 font-size: 16px;
 line-height: 1.4;
@@ -121,15 +119,14 @@ background-size: cover;
 height: 640px;
 
 }
-.Benefits of working here {
+.benefits-of-working-here {
     background-color: rgb(209, 207, 207);
     position: cover;
-    display: flex;
-    justify-content: space-between;
 }
-.Benefits_header-title {
+.benefits-header-title {
     font-size: 42px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-family: sans-serif;
     font-weight: 800;
     padding-bottom: 10px;
@@ -143,11 +140,11 @@ height: 640px;
 
 }
 
-.health and wellness__title {
+.health-and-wellness__title {
     font-size: 24px;
     font-weight: 400;
 }
-.health benefits {
+.health-benefits {
     text-align: left;
     font-size: 16px;
     word-wrap: break-word;
@@ -172,15 +169,14 @@ height: 130px;
   margin: auto;
   text-align: left;
 }
-.Our workstyle {
+.our-workstyle {
     display: block;
     box-sizing: border-box;
     display: flex;
-    vertical-align: baseline;
 }
 
 
-.Our workstyle_title {
+.our-workstyle_title {
     font-size: 42px;
     text-align: center;
     font-family: sans-serif;
@@ -225,15 +221,15 @@ height: 130px;
     
 }
 
-.cloudy group in action__title {
+.cloudy-group-in-action__title {
     color:black;
     font-size: 42px;
     font-weight: 800;
-    font-family: Montserrat; sans-serif;
+    font-family: Montserrat, sans-serif;
     text-align: center;
 }
 
-.Cloudy group in action {
+.cloudy-group-in-action {
     display: block;
     box-sizing: border-box;
     text-align: center;
@@ -243,7 +239,7 @@ height: 130px;
     width: 950px;
     text-align: center;
 }
-.Our people {
+.our-people {
     display: block;
     background-color: rgb(247, 241, 241);
 }
