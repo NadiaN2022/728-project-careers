@@ -152,25 +152,35 @@ padding-top: 30px;
     font-size: 18px;
 }
 
+.benefits-of-working-here.{
+    position: relative;
+    height: 500px;
+    width: auto;
+    
+}
+
 .benefits__header {
  font-size: 24px;
+ position: relative;
  text-align: center;
+ 
+}
+
+.Benefits-header-title {
+    font-size: 24px;
+    text-align: center;
+    top: 20px;
 }
 .health-and-wellness__containter {
-position: relative;
-font-size: 16px;
-line-height: 1.4;
-font-family: sans-serif;
-font-weight: 400;
-word-wrap: break-word;
-z-index: 1;
-background-size: cover;
-height: 640px;
+    display: flex;
 
+}
+.health-and-wellness__title {
+    text-align: center;
 }
 .benefits-of-working-here {
     background-color: rgb(247, 239, 239);
-    position: absolute;
+    
 }
 .benefits-header-title {
     font-size: 42px;
@@ -220,7 +230,19 @@ height: 130px;
 }
 
 
+.our-workstyle {
+    display: block;
+    padding: 15px; 
+	margin-right: 10px;
+    margin-bottom: 10px
 
+}
+
+.our-workstyle-container {
+    margin-right: 10px; 
+	margin-bottom: 10px;
+    
+}
 .our-workstyle_title {
     font-size: 42px;
     text-align: center;
@@ -278,11 +300,13 @@ height: 130px;
     display: block;
     box-sizing: border-box;
     text-align: center;
+    padding: 40px;
 }
 .man-writing-on-board-image {
-    height: 840px;
-    width: 950px;
+    height: 650px;
+    width: auto;
     text-align: center;
+    padding: 40px;
 }
 .our-people {
     display: block;
