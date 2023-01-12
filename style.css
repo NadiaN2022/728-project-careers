@@ -178,16 +178,21 @@ padding-top: 30px;
     line-height: 1.5;
 }
 
+
 .benefits-of-working-here.{
-    position: relative;
     height: 500px;
     width: auto;
     
 }
+.father-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%
+}
 
 .benefits__header {
  font-size: 24px;
- position: relative;
  text-align: center;
  
 }
@@ -197,21 +202,13 @@ padding-top: 30px;
     text-align: center;
     top: 20px;
 }
-.health-and-wellness__containter {
-    display: flex;
 
-}
-.health-and-wellness__title {
-    text-align: center;
-}
 .benefits-of-working-here {
     background-color: rgb(247, 239, 239);
     
 }
 .benefits-header-title {
     font-size: 42px;
-    display: flex;
-    justify-content: center;
     font-family: sans-serif;
     font-weight: 800;
     padding-bottom: 10px;
@@ -230,7 +227,6 @@ padding-top: 30px;
     font-weight: 400;
 }
 .health-benefits {
-    text-align: left;
     font-size: 16px;
     word-wrap: break-word;
 }
@@ -238,26 +234,21 @@ padding-top: 30px;
 .lamp-icon-image {
   height: 130px;
   max-width: 70px;
-  margin: auto;
-  text-align: left;
+
+
 }
 .clock-icon-image {
 height: 130px;
   max-width: 70px;
-  margin: auto;
-  text-align: left;
 }
 
 .battery-icon-image { 
   height: 130px;
   max-width: 70px;
-  margin: auto;
-  text-align: left;
+
 }
 
-
 .our-workstyle {
-    display: block;
     padding: 15px; 
 	margin-right: 10px;
     margin-bottom: 10px
@@ -265,8 +256,9 @@ height: 130px;
 }
 
 .our-workstyle-container {
-    margin-right: 10px; 
-	margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
 .our-workstyle_title {
@@ -276,40 +268,45 @@ height: 130px;
     font-weight: 800;
     padding-bottom: 10px;
 }
+.image-child {
+    gap: 2%;
+    width: 32%;
+    padding: 5px;
+ 
+}
 .laptop-on-table-image {
-    height: 259x;
-    width: 370px;
+    width: 100%;
+    aspect-ratio: 16/9;
     border-radius: 10px;
     
 }
 .meeting-in-office-image {
-    height: 259x;
-    width: 370px;
+    width: 100%;
+    aspect-ratio: 16/9;
     border-radius: 10px;
-    
 
 }
 .image-of-girl-img {
-    height: 259x;
-    width: 370px;
+    width: 100%;
+    aspect-ratio: 16/9;
     border-radius: 10px;
     
 }
 .man-with-laptop {
-    height: 259x;
-    width: 370px;
+    width: 100%;
+    aspect-ratio: 16/9;
     border-radius: 10px;
     
 }
 .man-with-photos {
-    height: 259x;
-    width: 370px;
+    width: 100%;
+    aspect-ratio: 14/9;
     border-radius: 10px;
     
 }
 .teamwork-in-office {
-    height: 259x;
-    width: 370px;
+    width: 100%;
+    aspect-ratio: 14/9;
     border-radius: 10px;
     
 }
