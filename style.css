@@ -8,7 +8,8 @@
     color: #567491;
     font-size: 26px;
     padding-top: 40px;
-
+    display: flex;
+    align-items: center;
 }
 body {
     background-color: white;
@@ -21,14 +22,18 @@ body {
     font-weight: 700;
 }
 
+.header__nav {
+    display: flex;
+    flex-direction: row;
+}
+
 .header__logo-group {
     cursor: pointer;
     font-weight: 700;
 }
 .header__menu {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  align-items: center;
   margin: 0 auto;
   list-style: none;
   font-size: 16px;
@@ -36,7 +41,8 @@ body {
   font-family: sans-serif;
   color: rgb(48, 45, 45);
   padding-top: 0;
-    
+  margin-top: 35px;
+  margin-bottom: 32px; 
 }
 .header__menu a {
     text-decoration: none;
