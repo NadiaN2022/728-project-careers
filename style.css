@@ -178,47 +178,44 @@ padding-top: 30px;
     line-height: 1.5;
 }
 
-
-.benefits-of-working-here.{
-    height: 500px;
-    width: auto;
-    
-}
 .father-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50%
-}
+    padding: 20px 10px 10px 10px;
 
-.benefits__header {
- font-size: 24px;
- text-align: center;
- 
 }
-
-.Benefits-header-title {
-    font-size: 24px;
-    text-align: center;
-    top: 20px;
-}
-
 .benefits-of-working-here {
-    background-color: rgb(247, 239, 239);
+    background-color: rgb(230, 230, 230);
+height: 600px;
+    
+
     
 }
-.benefits-header-title {
-    font-size: 42px;
-    font-family: sans-serif;
-    font-weight: 800;
-    padding-bottom: 10px;
+.benefits__header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+   }
+   
+   .benefits-header-title {
+       font-size: 32px;
+       text-align: center;
+       font-weight: 800;
+       padding-top: 20px;
+       padding-bottom: 40px;
+   }
 
+.health-and-wellness__containter {
+    display: flex;
+    width: 50%;
 }
+
+
 .lighter-icon-image {
     height: 130px;
     max-width: 70px;
-    margin: auto;
-    text-align: left;
 
 }
 
@@ -228,7 +225,7 @@ padding-top: 30px;
 }
 .health-benefits {
     font-size: 16px;
-    word-wrap: break-word;
+
 }
 
 .lamp-icon-image {
@@ -266,7 +263,8 @@ height: 130px;
     text-align: center;
     font-family: sans-serif;
     font-weight: 800;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 .image-child {
     gap: 2%;
@@ -300,13 +298,13 @@ height: 130px;
 }
 .man-with-photos {
     width: 100%;
-    aspect-ratio: 14/9;
+    aspect-ratio: 16/9;
     border-radius: 10px;
     
 }
 .teamwork-in-office {
     width: 100%;
-    aspect-ratio: 14/9;
+    aspect-ratio: 16/9;
     border-radius: 10px;
     
 }
