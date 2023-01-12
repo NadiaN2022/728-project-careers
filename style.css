@@ -330,3 +330,28 @@ h2 {
     display: flex;
     justify-content: space-around;
 }
+
+.contact-form-container {
+    margin: 10px;
+    padding: 10px;
+    height: 700px;
+    width: auto;
+    background-color: rgba(72, 72, 248, 0.897);
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,3 );
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.sign-up-form h1 {
+    color: rgb(75, 71, 71);
+    margin-bottom: 40px;
+    font-size: 42px;
+    font-weight: 800;
+}
