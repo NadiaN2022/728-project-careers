@@ -334,24 +334,58 @@ h2 {
 .contact-form-container {
     margin: 10px;
     padding: 10px;
-    height: 700px;
+    height: 800px;
     width: auto;
-    background-color: rgba(72, 72, 248, 0.897);
+    background-color: rgb(54, 130, 243);
     background-size: cover;
     background-position: center;
 }
 
 .sign-up-form {
-    width: 300px;
+    width: 500px;
+    height: 600px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,3 );
     background: #fff;
     padding: 20px;
     margin: 8% auto 0;
     text-align: center;
+    border-radius: 15px;
 }
 .sign-up-form h1 {
-    color: rgb(75, 71, 71);
+    color: rgb(63, 61, 61);
     margin-bottom: 40px;
+    padding: 10px;
     font-size: 42px;
     font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up-form h2 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 61, 61);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.input-box {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px -10px;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+    background-color: rgb(212, 212, 212);
+    
+}
+.button {
+    color: #fff;
+    background-color: rgb(54, 130, 243);
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
