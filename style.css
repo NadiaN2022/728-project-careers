@@ -395,38 +395,40 @@ h2 {
     cursor: pointer;
 }
 
-.slide-content-photos-of-employees-carousel {
-min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #EFEFEF;
+.slide_image {
+    height: 312px;
+    width: 421px;
 }
-
-.employees-of-group{
+.our-people-title {
+    text-align: center;
+    
+}
+.header-carousel {
+    display: block;
     text-align: center;
 }
+.slide-container-swiper {
+    background-color: #EFEFEF;
+}
+.slide-content-carousel {
+    max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
 
-.slide-content-carousel-slide
-.slide_image {
-    display: flex;
+.slide-content-carousel-slide {
+    border-radius: 25px;
+  background-color: #FFF;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 14px;
 }
-.slide-content-carousel-slide{
-position: relative;
-  row-gap: 5px;
-  padding: 25px 0; 
-}
 .slide_image {
-    height: 312px;
-    width: 421px;
-    object-fit: cover;
-  border-radius: 15px
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
 }
-
-
 .swiper-navBtn{
   color: #6E93f7;
   transition: color 0.3s ease;
