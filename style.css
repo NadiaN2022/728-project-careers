@@ -219,9 +219,10 @@ height: 600px;
 
 }
 
-.health-and-wellness__title {
+.h3__title {
     font-size: 24px;
     font-weight: 400;
+    
 }
 .health-benefits {
     font-size: 16px;
@@ -398,6 +399,9 @@ h2 {
 .slide_image {
     height: 312px;
     width: 421px;
+    border-radius: 15px;
+    row-gap: 5px;
+    padding: 25px 0;
 }
 .our-people-title {
     text-align: center;
@@ -407,28 +411,23 @@ h2 {
     display: block;
     text-align: center;
 }
-.slide-container-swiper {
+.slide-container {
     background-color: #EFEFEF;
 }
 .slide-content-carousel {
-    max-width: 1120px;
   width: 100%;
-  padding: 40px 0;
+  padding: 40px 15px;
 }
 
 .slide-content-carousel-slide {
-    border-radius: 25px;
+  border-radius: 25px;
   background-color: #FFF;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
   padding: 10px 14px;
 }
-.slide_image {
-    position: relative;
-    row-gap: 5px;
-    padding: 25px 0;
-}
+
 .swiper-navBtn{
   color: #6E93f7;
   transition: color 0.3s ease;
@@ -454,12 +453,12 @@ h2 {
   background-color: #4070F4;
 }
 
-.accordion {
+  .accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 30%;
+    width: 40%;
     border: none;
     text-align: left;
     outline: none;
@@ -475,8 +474,7 @@ h2 {
     padding: 0 18px;
     display: none;
     background-color: white;
-    overflow: hidden;
-    max-width: 30%;
+    overflow: hidden; 
   }
 
   .accordion:after {
@@ -489,4 +487,13 @@ h2 {
   
   .active:after {
     content: "\2796"; 
+  }
+
+  @media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
   }
