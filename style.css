@@ -398,10 +398,10 @@ h2 {
 
 .slide_image {
     height: 312px;
-    width: 421px;
+    width: 412px;
     border-radius: 15px;
     row-gap: 5px;
-    padding: 25px 0;
+    padding: 15px 0;
 }
 .our-people-title {
     text-align: center;
@@ -413,19 +413,23 @@ h2 {
 }
 .slide-container {
     background-color: #EFEFEF;
+    
+    
 }
 .slide-content-carousel {
   width: 100%;
   padding: 40px 15px;
 }
 
-.slide-content-carousel-slide {
-  border-radius: 25px;
-  background-color: #FFF;
-  display: flex;
-  flex-direction: column;
-  
-  padding: 10px 14px;
+
+.slide-content-carousel-slide,
+.accordion {
+    border-radius: 15px;
+    background-color: rgb(221, 220, 220);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+    
 }
 
 .swiper-navBtn{
@@ -458,7 +462,7 @@ h2 {
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 40%;
+    width: 33%;
     border: none;
     text-align: left;
     outline: none;
@@ -475,6 +479,8 @@ h2 {
     display: none;
     background-color: white;
     overflow: hidden; 
+    display: block;
+    width: 33%;
   }
 
   .accordion:after {
