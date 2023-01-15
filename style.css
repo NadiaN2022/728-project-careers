@@ -182,7 +182,8 @@ padding-top: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    max-width: 90%;
 
 }
 .benefits-of-working-here {
@@ -210,39 +211,35 @@ height: 600px;
 .health-and-wellness__containter {
     display: flex;
     width: 50%;
+    position: relative;
+    
 }
 
 
 .lighter-icon-image {
     height: 130px;
     max-width: 70px;
-
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
+
+
 
 .h3__title {
     font-size: 24px;
     font-weight: 400;
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 170px;
+    padding-bottom: 20px;
     
 }
 .health-benefits {
     font-size: 16px;
-
-}
-
-.lamp-icon-image {
-  height: 130px;
-  max-width: 70px;
-
-
-}
-.clock-icon-image {
-height: 130px;
-  max-width: 70px;
-}
-
-.battery-icon-image { 
-  height: 130px;
-  max-width: 70px;
+    padding-left: 20px;
+    padding-top: 40px;
+    line-height: normal;
+    text-align: justify;
 
 }
 
