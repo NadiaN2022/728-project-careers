@@ -227,7 +227,7 @@ height: 600px;
 
 .h3__title {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     position: absolute;
     padding-top: 0px;
     padding-left: 170px;
@@ -235,7 +235,7 @@ height: 600px;
     
 }
 .health-benefits {
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 20px;
     padding-top: 40px;
     line-height: normal;
@@ -352,11 +352,11 @@ h2 {
     padding: 20px;
     margin: 8% auto 0;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 .sign-up-form h1 {
-    color: rgb(63, 61, 61);
-    margin-bottom: 40px;
+    color: rgb(99, 96, 96);
+    margin-bottom: 15px;
     padding: 10px;
     font-size: 42px;
     font-weight: 800;
@@ -366,31 +366,39 @@ h2 {
 .sign-up-form h2 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(63, 61, 61);
+    color: rgb(116, 112, 112);
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: 10px;
     
 }
 .input-box {
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 18px;
     margin: 10px -10px;
     width: 80%;
-    border: 1px solid #999;
+    border: 1px solid rgb(223, 217, 217);
     outline: none;
-    background-color: rgb(212, 212, 212);
-    
+    background-color: rgb(238, 232, 232);
+  
 }
+
+.span-submit {
+    padding-top: 40px;
+}
+
+
 .button {
     color: #fff;
     background-color: rgb(54, 130, 243);
     width: 80%;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     margin: 10px 0;
     border: none;
     outline: none;
     cursor: pointer;
+    margin-top: 65px;
 }
 
 .slide_image {
