@@ -189,10 +189,9 @@ padding-top: 30px;
 .benefits-of-working-here {
     background-color: rgb(230, 230, 230);
 height: 600px;
-    
-
-    
+        
 }
+
 .benefits__header {
     text-align: center;
     padding-top: 20px;
@@ -213,6 +212,15 @@ height: 600px;
     width: 50%;
     position: relative;
     
+}
+.slide_image {
+    width: 100%;
+    
+    border-radius: 15px;
+}
+.accordion {
+    width: 100%;
+
 }
 
 
@@ -264,6 +272,7 @@ height: 600px;
     padding-bottom: 40px;
     padding-top: 40px;
 }
+
 .image-child {
     gap: 2%;
     width: 32%;
@@ -272,37 +281,37 @@ height: 600px;
 }
 .laptop-on-table-image {
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 14/9;
     border-radius: 10px;
     
 }
 .meeting-in-office-image {
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 14/9;
     border-radius: 10px;
 
 }
 .image-of-girl-img {
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 14/9;
     border-radius: 10px;
     
 }
 .man-with-laptop {
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 14/9;
     border-radius: 10px;
     
 }
 .man-with-photos {
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 14/9;
     border-radius: 10px;
     
 }
 .teamwork-in-office {
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 14/9;
     border-radius: 10px;
     
 }
@@ -320,18 +329,15 @@ height: 600px;
     box-sizing: border-box;
     text-align: center;
     padding: 40px;
+    
 }
-.man-writing-on-board-image {
-    height: 650px;
-    width: auto;
-    text-align: center;
-    padding: 40px;
-}
+
 h2 {
-    font-size: 48px;
+    font-size: 36px;
     font-family: sans-serif;
     font-weight: 800;
     text-align: center;
+    color:rgb(48, 45, 45)
 }
 
 .contact-form-container {
@@ -382,11 +388,17 @@ h2 {
     background-color: rgb(238, 232, 232);
   
 }
+.card-image {
+    aspect-ratio: 14/9;
+}
 
 .span-submit {
     padding-top: 40px;
 }
-
+.employees-of-group {
+    font-size: 18px;
+    margin: 20px;
+}
 
 .button {
     color: #fff;
@@ -402,11 +414,11 @@ h2 {
 }
 
 .slide_image {
-    height: 312px;
-    width: 412px;
     border-radius: 15px;
+    width: 100%;
+    aspect-ratio: 1400/928;
     row-gap: 5px;
-    padding: 15px 0;
+    
 }
 .our-people-title {
     text-align: center;
@@ -427,13 +439,15 @@ h2 {
 }
 
 
-.slide-content-carousel-slide,
 .accordion {
     border-radius: 15px;
     background-color: rgb(221, 220, 220);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 10px 14px;
+    max-width: 100%;
+   
     
 }
 
@@ -462,21 +476,9 @@ h2 {
   background-color: #4070F4;
 }
 
-  .accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 33%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-  }
   
   .active, .accordion:hover {
-    background-color: #ccc; 
+    background-color: rgb(231, 230, 230); 
   }
   
   .panel {
@@ -485,13 +487,13 @@ h2 {
     background-color: white;
     overflow: hidden; 
     display: block;
-    width: 33%;
+    width: 100%;
   }
 
   .accordion:after {
     content: '\02795'; 
     font-size: 13px;
-    color: #777;
+    color: rgb(252, 252, 252);
     float: right;
     margin-left: 5px;
   }
